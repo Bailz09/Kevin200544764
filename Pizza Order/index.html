@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Meta tags inside the head-->
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="this week we will be creating our layout using CSS flexbox">
+    <title>Pizza Store Assignment</title>
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link href="./css/style.css" rel="stylesheet">
+    
+</head>
+<!--Start the Body-->
+    <body class="flex">
+        <!--Header inside the body-->
+    <header>
+    <div>
+        <!--image for inside the header-->
+        <a href="index.html"><img src="./img/pizza-logo-header.webp" alt="logo header"></a>
+    </div>
+    
+    <div>
+        <!--Sub header inside the header-->
+        <h5>Kevin's Delicious Pizza</h5>
+    </div>
+    <nav>
+        <menu>
+            <li><a href="index.html">Local Delivery Map</a> </li>
+            <li> <a href="index.html">Company Contact Info</a> </li>
+        </menu>
+       </nav>
+</header>
+  
+   <div><!--this will act as the main flex container for our page-->
+     <main>
+
+         <section><!--background image-->
+            <div><!--transparent mask-->
+                <!--Main Sub Header-->
+                <h1>Order Your Pizza Below:</h1>
+                
+            </div>
+         </section>
+        
+        <!--Section for Size Choice-->
+         <section>
+            <!--Sub header-->
+            <h2>Pizza Size</h2>
+            <!--Div for the size choice radio buttons-->
+            <div>
+                <input type="radio" id="X-Large" name="lang" value="X-Large">
+                    <label for="X-Large">X-Large</label>
+                <input type="radio" id="Large" name="lang" value="Large">
+                    <label for="Large">Large</label>
+                <input type="radio" id="Medium" name="lang" value="Medium">
+                    <label for="Medium">Medium</label>
+                <input type="radio" id="Small" name="lang" value="Small">
+                    <label for="Small">Small</label>
+            </div>
+         </section>
+         <!--Section for Crust Choice-->
+         <section>
+            <!--Sub header-->
+            <h2>Crust Type</h2>
+            <!--Div for the crust choice radio buttons-->
+            <div>
+                <input type="radio" id="Stuffed" name="lang" value="Stuffed">
+                    <label for="Stuffed">Stuffed</label>
+                <input type="radio" id="DeepDish" name="lang" value="DeepDish">
+                    <label for="DeepDish">Deep Dish</label>
+                <input type="radio" id="Thin" name="lang" value="Thin">
+                    <label for="Thin">Thin</label>
+                <input type="radio" id="WholeWheat" name="lang" value="WholeWheat">
+                    <label for="WholeWheat">WholeWheat</label>
+            </div>
+         </section>
+         <!--Section for Toppings choices-->
+         <section>
+            <!--Sub header-->
+            <h2>Toppings</h2>
+            <!--Div for topping choices checkboxes-->
+            <div>
+                <input type="checkbox" id="Choice1" name="v1" value="Pepperoni">
+                        <label for="Choice1">Pepperoni</label>
+                <input type="checkbox" id="Choice2" name="v2" value="Sausage">
+                        <label for="Choice2">Sausage</label>
+                <input type="checkbox" id="Choice3" name="v1" value="Bacon">
+                        <label for="Choice3">Bacon</label>
+                <input type="checkbox" id="Choice4" name="v2" value="Chicken">
+                        <label for="Choice4">Chicken</label>
+                <input type="checkbox" id="Choice5" name="v1" value="Mushrooms">
+                        <label for="Choice5">Mushrooms</label>
+                <input type="checkbox" id="Choice6" name="v2" value="Onions">
+                        <label for="Choice6">Onions</label>
+                <input type="checkbox" id="Choice7" name="v2" value="Pineapple">
+                        <label for="Choice7">Pineapple</label>
+                <input type="checkbox" id="Choice8" name="v1" value="Extra Cheese">
+                        <label for="Choice8">Extra Cheese</label>
+                <input type="checkbox" id="Choice9" name="v2" value="Olives">
+                        <label for="Choice9">Olives</label>
+                <input type="checkbox" id="Choice10" name="v2" value="Ham">
+                        <label for="Choice10">Ham</label>
+            </div>
+         </section>
+         <!--Section for entering your delivery information-->
+         <section>
+        <!--Message about the delivery information-->
+         <div>
+            <p>Please Enter Your name and address in the text boxes below, Kevin's Delicious Pizza guarantees local delivery within 35 min or your order is free of charge! </p>
+            <!--Div for input boxes for customer delivery information-->
+            <div>
+                <input type="text" name="fname" required placeholder="Your First Name">
+                <input type="text" name="lname" required placeholder="Your Last Name">
+                <p><input type="email" required placeholder="Your Email"></p>
+                <p><input type="text" required placeholder="Your Address"></p>
+            </div>
+       
+         </div>
+        
+        </section>
+     </main> 
+   </div>
+   <!--Footer with company info-->
+   <footer>
+    <h5>Kevin's delicious Pizza is a trademark of Bailey's Fine Foods</h5>
+    <p>420 Bake street</p>
+    <p>Munchville, Ontario</p>
+    <p>200544764@student.georgianc.on.ca</p>
+   </footer>
+</body>
+</html>
+
+
+
+
+
+
