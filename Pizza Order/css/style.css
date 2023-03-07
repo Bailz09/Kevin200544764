@@ -5,7 +5,7 @@ body{
     margin: 0px;
     background-color: #0e0e0e;
 }
-h1,h2,h5, li{
+h1,h2,h5{
     font-family: 'Roboto', sans-serif;
 }
 p{
@@ -66,23 +66,26 @@ p{
     text-align: center;
 }
 /*styling for the choice headers*/
-.flex > div > main > section + section > h2{
+.flex > div > main > form section h2{
     color: #f4f4f4;
     background-color: #0e0e0e;
     padding: 2%;
     text-align: center;
     font-size: 1em;
 }
+
 /*styling for the size choices*/
-.flex > div > main> section + section > div{
+.flex > div > main> form section{
     text-align: center;
     color: orange;
     background-color: #0e0e0e;
 }
+
 /*padding between the toppings choices and the enter information message*/
-.flex div main section+section+section+section+section div{
-    padding-top: 5%;
+.flex div main form div p{
+    padding-top: 2%;
 }
+
 /*footer styling*/
 .flex footer{
     color: #f4f4f4;

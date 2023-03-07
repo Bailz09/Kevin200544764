@@ -36,19 +36,17 @@
         </menu>
        </nav>
 </header>
-  
    <div><!--this will act as the main flex container for our page-->
      <main>
-
          <section><!--background image-->
             <div><!--transparent mask-->
                 <!--Main Sub Header-->
-                <h1>Order Your Pizza Below:</h1>
-                
+                <h1>Order Your Pizza Below:</h1>  
             </div>
          </section>
-        
-        <!--Section for Size Choice-->
+        <!--Creates an input form for the customer to submit-->
+        <form method="post" action="somephpfile1.php">
+            <!--Section for Size Choice-->
          <section>
             <!--Sub header-->
             <h2>Pizza Size</h2>
@@ -63,9 +61,9 @@
                 <input type="radio" id="Small" name="lang" value="Small">
                     <label for="Small">Small</label>
             </div>
-         </section>
+        </section>
          <!--Section for Crust Choice-->
-         <section>
+        <section>
             <!--Sub header-->
             <h2>Crust Type</h2>
             <!--Div for the crust choice radio buttons-->
@@ -79,7 +77,7 @@
                 <input type="radio" id="WholeWheat" name="lang" value="WholeWheat">
                     <label for="WholeWheat">WholeWheat</label>
             </div>
-         </section>
+        </section>
          <!--Section for Toppings choices-->
          <section>
             <!--Sub header-->
@@ -107,7 +105,7 @@
                 <input type="checkbox" id="Choice10" name="v2" value="Ham">
                         <label for="Choice10">Ham</label>
             </div>
-         </section>
+        </section>
          <!--Section for entering your delivery information-->
          <section>
         <!--Message about the delivery information-->
@@ -119,11 +117,11 @@
                 <input type="text" name="lname" required placeholder="Your Last Name">
                 <p><input type="email" required placeholder="Your Email"></p>
                 <p><input type="text" required placeholder="Your Address"></p>
+                <button type="submit">Submit</button>
             </div>
-       
          </div>
-        
         </section>
+    </form>
      </main> 
    </div>
    <!--Footer with company info-->
