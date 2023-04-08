@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head id="head">
+        <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+        <script src="./js/custom.js"></script>
+    </head>
+    <body>
+        <header id="header"></header>
+        <main>
+            <section class="products">
+                <div>
+                    <p>EXPLORE YAMAHA WAVEBLASTERS</p>
+                    <h1>RUN THE WAVES</h1>
+                </div>
+            </section>
+            <form action="./php/somefile.php" method="POST" enctype="application/x-www-form-urlencoded">
+            <section class="product-options">
+                    <div class="blaster-title">
+                        <img src="./img/purple.png" alt="purple blaster image">   
+                    </div>
+                    <div class="red-blaster">
+                        <img src="./img/red.png" alt="red blaster image">
+                    </div>
+            </section>
+            <section class="product-title">
+                <div>
+                    <h2>1993 WAVEBLASTER 700</h2>
+                    <p>MSRP $10,199.00 - 12,499.00</p>
+                </div>
+            </section>
+            <section class="dropdown-section">
+            <div class="dropdown">
+                <button id="dropdown-button" class="dropdown-button">Select a color</button>
+                <div class="dropdown-content">
+                    <div class="color-option" data-color="Blurple">Blurple</div>
+                    <div class="color-option" data-color="Special Edition Red">Special Edition Red</div>
+                </div>
+            </div>
+        </section>
+        <section class="engine-options">
+            <h3>Engine Options</h3>
+            <div>
+                <input type="radio" id="stock" name="lang" value="Stock 701cc">
+                    <label for="stock">Stock 701cc</label>
+                <input type="radio" id="turbo" name="lang" value="2nd Gen 754cc">
+                    <label for="turbo">2nd Gen 754cc</label>
+            </div>
+        </section>
+        <section class="accessories">
+            <h3>Optional Accessories</h3>
+            <div>
+                <input type="checkbox" id="c1" name="v1" value="Turbo-Charger">
+                    <label for="c1">Turbo-Charger ($1000.00)</label>
+                <input type="checkbox" id="c2" name="v2" value="Air-Intake System">
+                    <label for="c2">Air-Intake System ($499.99)</label>
+                <input type="checkbox" id="c3" name="v3" value="Hydro-Turf">
+                    <label for="c3">Complete Hydro-Turf Kit W/ Ride Plate($500.00)</label>
+                <input type="checkbox" id="c4" name="v4" value="Riser-Bars">
+                    <label for="c4">Riser-Bars W/ Nerf ($299.00)</label>
+            </div>
+        </section>
+        <section class="submit-product">
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </section>
+            </form>
+            <section class="product-final">
+                <div>
+                    <p>Please visit the contact info page for any questions regarding products our services not currently listed within our pricing guideline</p>
+                </div>
+            </section>
+        </main>
+        <footer id="footer"></footer>
+    </body>
+</html>
