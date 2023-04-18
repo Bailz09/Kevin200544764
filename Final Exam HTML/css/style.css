@@ -1,0 +1,194 @@
+.headerlink
+{
+    font-family: 'Montserrat', sans-serif;
+}
+.headerheader
+{
+    display: flex;
+    background-color: #125784;
+    
+}
+.top-bar
+{
+    
+    display: block;
+}
+.top-bar div img
+{
+    
+    margin-top: 20px;
+    height: 20%;
+    width: 20%;
+}
+.top-bar div nav
+{
+    
+    margin-left: 300px;
+    display: block;
+    text-align: center;
+    
+}
+
+
+.headerlink
+{
+    color: white;
+    text-decoration: none;
+    margin-left: 200px;
+    margin-bottom: 200px;
+    
+}
+.searchbar
+{
+    font-weight: 999;
+    margin-left: 80px;
+    
+}
+.linkone
+{
+    display: inline-block;
+    border-right: 2px solid white;
+}
+.first-section
+{
+    width: 100%;
+    height:100vh;
+    background-image: url("../img/img1.jpg");
+    background-size: cover;
+    
+}
+.first-div 
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,.7);
+}
+.first-div h1
+{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+}
+.title-one
+{
+    display: flex;
+}
+.title-one div
+{
+    background-color: #f57f17;
+}
+.title-one div h2
+{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.title-one div p
+{
+    font-size: 1.7em;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.image-row
+{
+    display: flex;
+}
+.contact
+{
+    display: flex;
+    background-color: #5e35b1;
+}
+.contact div p input
+{
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 1400px;
+}
+.radio
+{
+    display: flex;
+    background-color: #5e35b1;
+    padding-left: 15%;
+    
+}
+.radio div p
+{
+    color: white;
+}
+.box
+{
+    display: flex;
+    background-color: #5e35b1;
+    padding-left: 15%;
+    
+}
+.submit-section
+{
+    display: flex;
+    background-color: #5e35b1;
+    padding-left: 15%;
+}
+.submit button
+{
+    background-color: white;
+    width: 1400px;
+    
+}
+.messagebox
+{
+    width: 1400px;
+}
+.footer
+{
+    display: flex;
+    background-color: black;
+    
+}
+.footer-div
+{
+    display: block;
+    
+    
+}
+.footer-div div img
+{
+    height: 20%;
+    width: 20%;
+}
+.footer h3
+{
+    color: white;
+    
+    
+}
+.footer p
+{
+    color: white;
+}
+.image-row div img
+{
+    width: 629px;
+}
+@media screen and (max-midth:450px)
+{
+    .image-row div img
+{
+    width: 150px;
+}
+.title-img img
+{
+    width: 300px;
+}
+.title-one h2
+{
+ font-size: 12px;
+}
+.title-one p
+{
+    font-size: 12px;
+}
+}

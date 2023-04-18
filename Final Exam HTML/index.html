@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head id="head"><!--loading the meta.html file-->
+    <title>Waveblaster Retro Site</title>
+    <meta name="Retro Site" content="Waveblaster">
+    <!--Links for the js and jQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <script src="./js/custom.js"></script>
+</head>
+
+<body>
+    <header id="header"></header>
+
+    <main>
+        <section class="first-section">
+            <div class="first-div">
+                <h1>HTML, CSS, JS Fund. Final Exam</h1>
+            </div>
+        </section>
+        <section class="title-one">
+            <div>
+                <h2>I Am A Title</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit sequi eligendi quidem, voluptatum
+                    aperiam fugit voluptatibus rerum! Consequuntur molestias amet architecto in reprehenderit?
+                    Necessitatibus, quasi placeat?</p>
+            </div>
+            <div class="title-img">
+                <img src="./img/img2.jpg" alt="image two">
+            </div>
+        </section>
+        <section class="image-row">
+            <div>
+                <img src="img/img5.jpg" alt="image five">
+            </div>
+            <div>
+                <img src="img/img4.jpg" alt="image four">
+            </div>
+            <div>
+                <img src="img/img3.jpg" alt="image three">
+            </div>
+        </section>
+        <form action="./php/somefile.php" method="post" id="user">
+            <section class="contact">
+                <div>
+                    <p><input type="text" name="name" required placeholder="Name"></p>
+                    <p><input type="email" required placeholder="Email"></p>
+                    <p><input type="password" required placeholder="Password"></p>
+                </div>
+            </section>
+            <section class="radio">
+                <div>
+                    <p>Pick One:</p>
+                    <p><input type="radio" id="true" name="lang" value="True"><label for="true">True</label></p>
+                    <p><input type="radio" id="false" name="lang" value="False"><label for="false">False</label></p>
+                </div>
+            </section>
+            <section class="box">
+                <div class="message">
+                    <textarea class="messagebox" form="user" placeholder="Leave a message"></textarea>
+                </div>
+            </section>
+            <section class="submit-section">
+                <div class="submit">
+                    <button type="submit">Submit</button>
+                </div>
+            </section>
+        </form>
+
+    </main>
+    <footer id="footer"></footer>
+</body>
+
+</html>
